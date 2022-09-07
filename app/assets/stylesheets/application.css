@@ -49,18 +49,8 @@ p, ol, ul, td {
 
 
 
-table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: grey;
-}
-
-
-div.field, div.actions {
-    margin-bottom: 10px;
+th {
+    padding-bottom: 5px;
 }
 
 td {
@@ -69,16 +59,16 @@ td {
     padding-right: 5px;
 }
 
-th {
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    text-align: -internal-center;
-    padding-bottom: 5px;
-    padding-left: 20px;
+div.field, div.actions {
+    margin-bottom: 10px;
 }
+
+
 
 #notice {
     color: green;
 }
 
+form {
+  margin-bottom: 10px;
+}
